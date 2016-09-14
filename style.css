@@ -1,0 +1,41 @@
+/* Put your CSS rules here: */
+.picture_container {
+	background-color: #000000;
+}
+
+.picture_container > img {
+			border-style: solid;
+			border-color: blue;
+			border-width: 10px;
+			/* background-color: black; */
+			padding: 10px 10px 0 0;
+			/* top, right, bottom, left */
+			/* can also do border: 10px solid blue */
+
+}
+
+.bold {
+	font-weight: bold;
+
+}
+
+.italic {
+	font-style: italic;
+
+}
+
+.underlined {
+	text-decoration: underline;
+
+}
+
+.tiled_container > div {
+	border-style: solid;
+	border-width: 5px;
+	height: 10px;
+	border-color: black;
+}
+/* These are for the exercise, please don't edit them! */
+html,body{margin:0;padding:0;}
+body{font-family:sans-serif;}
+.content{width:980px;padding:10px;}
